@@ -1,0 +1,24 @@
+Advantage of tool : Display the mismatch of terraform module version between developer codebase vs Atlas module registry
+Prerequisite : 
+
+Python3.7.9 needed - from Devshell install python - command - ds tool install python3.7.9
+
+Below is the walkthrough to run tool :
+
+1) Setup of config file : configurations.ini
+
+Parameters to set : TFEToken of person running tool and CodePath is where code is present in local(main.tf file). Rest 2 parameters is not needed change.
+
+[KeySettings]
+TFEToken: 
+CodePath: 
+TFEURLStartPart: https://tfe.jpmchase.net/api/v2/organizations/ATLAS-MODULE-REGISTRY/registry-modules/?page%%5Bnumber%%5D=
+TFEURLEndPart: \u0026page%%5Bsize%%5D=20
+
+2) Command to run from devshell :
+
+Browse path where code is like cd C:\temp
+Enter command : python "C:\temp\Terraform scrapping\terraformapi.py"
+
+The output would be:
+
