@@ -27,5 +27,5 @@ Process wise variation happened :
 
 1) When performance issue happened initially in prod the Guardium services(shown above in screenshot  for Guardium related services) was stopped which caused the ITRC break as the Guardium is mandatory from Cyber security wise also and also the approval from Guardium and DBA and Cyber team was taken. After fix in prod the ITRC break was closed
 
-2) The alternate compensating control need to be added till the Guardium is stopped in Prod(Native SQL logging) but SQL Native logging process is disk intensive and also has caused performance issue in past for other application.(Unity application and Capstock)
+2) The alternate compensating control need to be added till the Guardium is stopped in Prod(Native SQL logging) but SQL Native logging process is disk intensive and also has caused performance issue in past for other application related to Windows and Microsoft platforms.
 
