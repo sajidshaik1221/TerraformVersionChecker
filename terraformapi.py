@@ -53,7 +53,6 @@ for modules in dict12.get("module", []):
 print('From local modules and corresponding version :')
 print(my_list)
 
-#url = 'https://tfe.jpmchase.net/api/v2/organizations/ATLAS-MODULE-REGISTRY/registry-modules'
 for key_item in my_list:
 
     # print(key_item)
