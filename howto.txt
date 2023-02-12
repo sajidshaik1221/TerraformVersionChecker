@@ -12,7 +12,7 @@ Parameters to set : TFEToken of person running tool and CodePath is where code i
 [KeySettings]
 TFEToken: 
 CodePath: 
-TFEURLStartPart: https://tfe.jpmchase.net/api/v2/organizations/ATLAS-MODULE-REGISTRY/registry-modules/?page%%5Bnumber%%5D=
+TFEURLStartPart: <organization TFE url>
 TFEURLEndPart: \u0026page%%5Bsize%%5D=20
 
 2) Command to run from devshell :
