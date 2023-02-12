@@ -5,9 +5,11 @@ The DAM Service is run in partnership between Cyber and GTI. Cyber provide requi
 
 Guardium related services : 
 
-
-
-
+IBM Security Guardium S-TAP
+IBM Security Guardium Resource Monitor Service
+IGM Security Guardium Installation Manager
+IGM Security Guardium Database Monitor
+IBM Security Guardium Common Services
 
 Problem statements :
 
