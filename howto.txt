@@ -22,3 +22,4 @@ Enter command : python "C:\temp\Terraform scrapping\terraformapi.py"
 
 The output would be:
 
+It will list the mismatched versions
